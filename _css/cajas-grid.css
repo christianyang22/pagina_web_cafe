@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Pixelify+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Pixelify+Sans&family=Raleway:ital,wght@1,100&display=swap');
+
+h1{
+    font-family: Pixelify Sans, sans;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    list-style: none;
+    font-family: Raleway;
+    font-weight: 1000;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(76, 47, 39);
+}
+
+nav ul li a:hover{
+    text-decoration: underline wavy;
+    
+}
+
+#banner{
+    background-image:url("../_images/cafe.jpg");
+    background-size: cover;
+    height: 70vh;
+    display: grid;
+}
+
+#subtitulo{
+    font-family: Raleway;
+    font-size: 50px;
+    color: whitesmoke;
+    background-color: rgba(76, 47, 39, 0.8);
+    border-color: whitesmoke;
+    border-style: solid;
+    place-self: center;
+    padding: 50px 50px;
+    
+}
+
+.cajas{
+    display: grid;
+    width: 98vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    grid-gap: 15px;
+    width: 100%;
+    background-color: rgba(221, 221, 221, 0.87);
+}
+
+.caja_texto{
+    font-family: Arial;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caja_texto p {
+    font-size: large;
+}
+
+.product{
+    width: 90%;
+
+}
